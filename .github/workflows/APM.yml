@@ -1,7 +1,7 @@
 name: android audio build
 
 on:
-
+  workflow_dispatch:
 jobs:
   build-android-main-on-linux:
     name: android main on linux
